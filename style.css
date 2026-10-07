@@ -1371,3 +1371,36 @@ html,body{background:var(--bg-primary);color:var(--ink-secondary)}body:before{co
 main{padding-top:0}
 section[id]{scroll-margin-top:5rem}
 
+
+
+/* Text contrast overrides only: no layout, typography, imagery, or behavior changes. */
+.mobile-nav-panel .mob-tag,
+.mobile-nav-foot .mob-foot-row a { color: #d9a399; }
+.mobile-nav-links .mob-nav-item { color: #ebe7df; }
+.mobile-nav-foot .mob-foot-row span { color: #9b9489; }
+
+.manifesto-quote-callout p { color: #b7b1a5; }
+.dossier-artist-name { color: #ebe7df; }
+.dossier-artist-loc { color: #9b9489; }
+.dossier-link-row { color: #c5beb2; }
+.dossier-link-row:hover { color: #ebe7df; }
+.btn-whatsapp-action { color: #fff; }
+.copy-btn-action:hover { color: #fff; }
+
+.works-section .section-eyebrow,
+.contact-section .section-eyebrow { color: #656159; }
+.tag-muted,
+.caption-desc,
+.section-desc,
+.work-card-story,
+.studio-lead-text,
+.cap-text p,
+.contact-description,
+.footer-sub,
+.footer-copy,
+.filter-tab-btn { color: #656159; }
+.filter-tab-btn.active,
+.filter-tab-btn:hover { color: #d9a399; }
+.frame-tag { color: #d9a399; }
+.frame-meta { color: #ebe7df; }
+.work-card-badge { color: #c5beb2; }
